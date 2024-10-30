@@ -287,3 +287,10 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+# BenchmarkDotNet
+# Ignore all Benchmark Artifacts
+BenchmarkDotNet.Artifacts/*
+
+# Except for the specific report file
+!BenchmarkDotNet.Artifacts/results/FeatureManagementBenchmark.Benchmarks-report-github.md
